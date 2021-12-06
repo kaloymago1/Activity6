@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Before</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: gray;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        #box {
+            background-color: blue;
+            padding: 10px 10px 10px 10px;
+            border: 5px solid black;
+            width: 200px;
+            height: 100px;
+            margin-top: 50px;
+            overflow: auto;
+        }
+
+        #content {
+            background-color: aqua;
+        }
+
+        h1{
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Box Model</h1>
+    <div id="box">
+        <div id="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pretium lacus orci, quis iaculis tellus consectetur ac. Ut ut leo a 
+            mi maximus eleifend. Duis tincidunt, nulla non scelerisque lacinia, eros augue volutpat enim, vel auctor ante ligula ut nisl. 
+            Praesent tincidunt hendrerit lorem, id suscipit velit ornare id. Curabitur et enim a nibh dictum placerat sed quis lorem. Proin 
+            sed sem cursus, laoreet sem non, hendrerit nisl. Sed id turpis non ex rhoncus scelerisque. Aliquam id lacinia urna. Nam sapien 
+            neque, vulputate nec consectetur vel, laoreet id sem. Fusce vitae tortor aliquam, bibendum risus nec, fringilla orci.
+        </div>
+        
+    </div>
+    <div>Nam mollis a odio et dapibus. Nulla tempus urna pharetra orci hendrerit mollis in et ante. Proin gravida varius nisi, sed 
+        bibendum ex. Integer venenatis mauris quis ante tincidunt, nec scelerisque massa commodo. Suspendisse potenti. Sed diam sem, 
+        sagittis sit amet dui nec, pharetra hendrerit nisi. In tristique et ante a rhoncus. Class aptent taciti sociosqu ad litora 
+        torquent per conubia nostra, per inceptos himenaeos. Phasellus vitae lorem et nisi euismod iaculis eu et neque. Fusce et 
+        vulputate risus.</div>
+</body>
+</html>
